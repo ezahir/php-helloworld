@@ -7,6 +7,7 @@
 <body>
 
 <?php echo "Hello World!"; ?>
+<?php echo "hello world of openshift by Amer EZAHIR"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
